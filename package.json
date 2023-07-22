@@ -12,7 +12,8 @@
     "format": "prettier \"src/**/*.ts\" --write",
     "lint": "eslint \"src/**/*.ts\" --fix",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "@types/jest": "^29.5.3",
@@ -34,5 +35,6 @@
       "eslint --fix",
       "prettier --write"
     ]
-  }
+  },
+  "dependencies": {}
 }
